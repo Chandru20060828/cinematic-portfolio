@@ -1,0 +1,27 @@
+{
+  "name": "chandru-cinematic-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A cinematic, scroll-driven 3D story portfolio — a boy grows into a developer.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.0.0",
+    "@fontsource-variable/inter": "^5.0.0",
+    "@react-three/drei": "^9.109.0",
+    "@react-three/fiber": "^8.16.8",
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.400.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
