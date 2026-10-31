@@ -77,7 +77,7 @@ export const projects = [
     'Node.js',
     'Vite',
     'Razorpay'],
-    image: 'images/brainlink.png', // screenshot, e.g. '/images/brainlink.png'
+    image: '/images/brainlink.png', // screenshot, e.g. '/images/brainlink.png'
     github: 'https://github.com/Chandru20060828/brainlink', // e.g. 'https://github.com/your-username/brainlink'
     live: 'https://brainlink-rho.vercel.app/',
     color: '#8b6cff',
@@ -95,7 +95,7 @@ export const projects = [
     'Cloudinary',
     'REST API',
     'UPI / QR Payments'],
-    image: 'images/memoria.png',
+    image: '/images/memoria.png',
     github: 'https://github.com/Chandru20060828/memoria-blooms',
     live: 'https://memoria-blooms-oo0m.onrender.com/',
     color: '#ff7ab8',
@@ -107,7 +107,7 @@ export const projects = [
     description:
       'A boutique website showcasing Aari work, Kundan bangles, invisible chains and saree draping, with an enquiry form that opens a prefilled WhatsApp message.',
     tech: ['HTML5', 'CSS3', 'JavaScript'],
-    image: 'images/janu.png',
+    image: '/images/janu.png',
     github: 'https://github.com/chandru-ganesh-28/januzz-creations',
     live: 'https://chandru-ganesh-28.github.io/januzz-creations/',
     color: '#e0a36a',
@@ -124,7 +124,7 @@ export const projects = [
     'Express.js',
     'MongoDB',
     'Cloudinary'],
-    image: 'images/portfolio.png',
+    image: '/images/portfolio.png',
     github: 'https://github.com/Chandru20060828/portfolio',
     live: 'https://chandru.xyz/',
     color: '#38e0ff',
@@ -182,17 +182,17 @@ export const internship = {
     {
       id: 'certificate',
       title: 'Internship Certificate',
-      file: 'images/internship-certificate.jpg',
+      file: '/images/internship-certificate.jpg',
     },
     {
       id: 'experience',
       title: 'Experience Letter',
-      file: 'images/experience-letter.jpg' ,
+      file: '/images/experience-letter.jpg' ,
     },
     {
       id: 'recommendation',
       title: 'Letter of Recommendation',
-      file: 'images/letter-of-recommendation.jpg',
+      file: '/images/letter-of-recommendation.jpg',
     },
   ],
 };
@@ -209,9 +209,9 @@ export const contact = {
   note: 'My journey is still being written. Maybe we can build the next chapter together.',
   // `placeholder: true` marks values you still need to replace (they get a dashed underline).
   links: [
-    { id: 'email', label: 'Email', value: 'gmail.com', href: 'mailto:chandru2006tj@gmail.com', placeholder: true },
+    { id: 'email', label: 'Email', value: 'chandru2006tj@gmail.com', href: 'mailto:chandru2006tj@gmail.com', placeholder: true },
     { id: 'github', label: 'GitHub', value: 'github.com/Chandru20060828', href: 'https://github.com/Chandru20060828', placeholder: true },
-    { id: 'linkedin', label: 'LinkedIn', value: 'linkedin.com/in/chandru', href: 'https://www.linkedin.com/in/chandru-g-3141a4328/', placeholder: true },
+    { id: 'linkedin', label: 'LinkedIn', value: 'linkedin.com/in/chandru-g', href: 'https://www.linkedin.com/in/chandru-g-3141a4328/', placeholder: true },
     { id: 'portfolio', label: 'Portfolio', value: 'chandru.xyz/', href: 'https://chandru.xyz/', placeholder: true },
   ],
 };
